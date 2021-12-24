@@ -1,3 +1,12 @@
+$(`<img style="padding: 2px;margin-left: 23px;width: 90%;margin-top: 35px;pointer-events: none;margin-bottom: 0px;border-radius: 15px;box-shadow: inset 0 0px 0px rgba(0,0,0,0.075), 0 0 8px rgba(0, 0, 0, 1.64)!important;" src="https://awtar-iq.com/site/1632168440085.gif" >
+<a id="as3" href="" style="transform:matrix(1, 0, 0, 1, 45, -63);border-radius: 3px;width:10%;    margin: -126px 0px 0px;" class="fl mini fa fa-bell btn btn-info"></a>
+<a id="as3" href="" style="transform:matrix(1, 0, 0, 1, 109, -63);border-radius: 3px;width:10%;    margin: -126px 0px 0px;" class="fl mini fa fa-star btn btn-success"></a>
+<a id="as3" href="" style="transform:matrix(1, 0, 0, 1, 176, -63);border-radius: 3px;width:10%;    margin: -126px 0px 0px;" class="fl mini fa fa-heartbeat btn btn-warning"></a>
+<a id="as3" href="" style="transform:matrix(1, 0, 0, 1, 240,-63);border-radius: 3px;width:10%;    margin: -126px 0px 0px;" class="fl mini  fa   fa fa-paint-brush btn btn-danger"></a>
+<a id="as3" href="" style="transform:matrix(1, 0, 0, 1, 300,-63);border-radius: 3px;width:10%;    margin: -126px 0px 0px;" class="fl mini  fa   fa fa-phone btn btn-warning"></a>
+`).insertBefore(".nav-tabs"),$('.u-msg.dots').removeClass('dots');
+
+$(`<style>
 .uzr.fl.corner.borderg.mm {
     border-left: 2px solid #333333;
     margin-left: 0!important;
@@ -165,7 +174,7 @@
     position: relative;
 }
 .fa-gear:before, .fa-cog:before {
-    content: ""!important;
+    content: ""!important;
     visibility: initial;
     margin-left: 4px;
 }
@@ -175,7 +184,7 @@
     margin-left: 4px;
 }
 .ae.fa.chats.label.label-primary.fa-comment:before {
-    content: "";
+    content: "à";
     display: inline!important;
     margin-left: 4px;
 }
@@ -547,3 +556,9 @@ div#tlogins img.fitimg.fl.u-pic {
     margin-top: 2px;
     border-radius: 6px;
 }
+</style>`).insertBefore('body');
+$('.ae.label.label-primary.fa.fa-gear')['html'](`${' '}`);
+$('label.ae.fa.label.label-primary.fa-commenting-o')['html'](`${' '}`);
+$('.ae.fa.label.label-primary.fa-users')['html'](`${' '}`);
+$('.fa.fa-send.fl.btn.btn-primary')['html'](`${' '}`);
+$('.fa.fa-send.sndbc.fl.btn.btn-primary')['html'](`${' '}`);
